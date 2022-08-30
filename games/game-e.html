@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess a number game</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <p id="wrongAns">Wrong number. Try again!</p>
+
+
+    <div class="container">
+
+        <div class="alert">
+            <img src="../check-circle.svg" alt="check">
+            <h2>You guessed my number! congratulations!</h2>
+            <p id="tries"></p>
+            <p>Do you want to play again?</p>
+            <button id="resetBtn">Reset</button>
+        </div>
+
+        <h1>guess a number game</h1>
+        <p>I generated a number from 1 to 50.</p>
+        <p>Your goal is to guess that number.</p>
+        <p>Just write your tip and click submit or press enter.</p>
+        <h2>good luck!</h2>
+        <img src="../arrow-down.svg" alt="arrow down image">
+
+        <div class="form-container">
+            <input type="number" placeholder="0" name="fnum" id="myNumber" autofocus>
+            <button type="button" id="submit">Submit</button>
+        </div>
+
+        <a href="../index.html">Change difficulty</a>
+    </div>
+
+    
+
+    
+
+    
+
+
+    <script src="../js/script-e.js"></script>
+    
+</body>
+</html>
